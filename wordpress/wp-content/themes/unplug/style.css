@@ -1,0 +1,173 @@
+/*
+Theme Name: UnPLUG Wordpress Theme
+Author: UP Linux Users' Group
+*/
+
+body {
+   font-family: "Segoe UI", "Helvetica", sans-serif;
+   margin:0px;
+}
+
+#main_wrapper {
+   width:100%;
+   margin:0px;
+   padding:0px;
+}
+
+.top_hr {
+   background-color:#e8e8e8;
+   border:none;
+   height:12px;
+   margin:0px;
+}
+
+#content {
+   margin:0px auto;
+   width:960px;
+   padding:0px 20px;
+   overflow:auto;
+}
+
+#header {
+   overflow:auto;
+   margin:0px 0px 15px;
+}
+
+#header_left {
+   float:left;
+   width:30%;
+}
+
+#header_right {
+   float:right;
+   width:70%;
+}
+
+#header_right a {
+   float:right;
+   color:#560d0d;
+   margin:55px 12px 0px;
+   text-decoration:none;
+   font-weight:bold;
+   font-size:14px;
+}
+
+#search {
+   float:right;
+   margin:51px 0px 0px;
+}
+
+#search input {
+   width:150px;
+   height:23px;
+}
+
+#search button {
+   height:25px;
+   font-size:13px;
+}
+
+#slider {
+   height:250px;
+}
+
+.slider_item {
+   height:inherit;
+}
+
+.slider_thumb {
+   float:left;
+   height:205px;
+   width:270px;
+   margin:10px;
+   border:5px solid #ffffff;
+   -moz-box-shadow:1px 1px 1.5px 1.5px;
+}
+
+.slider_desc {
+   float:left;
+   margin:0px 0px 0px 15px;
+   height:inherit;
+   width:640px;
+   overflow:hidden;
+}
+
+.slider_desc h1 {
+   color:#686868;
+   font-weight:normal;
+   font-size:27px;
+   margin:5px;
+   width:570px;
+}
+
+.slider_desc p {
+   font-size:14px;
+   margin:0px 15px 10px 5px;
+   text-align:justify;
+}
+
+#page_content {
+   margin:10px 0px 0px;
+   overflow:auto;
+}
+
+
+
+.column {
+   width:230px;
+   margin:0px 10px 20px 10px;
+   float:left;
+}
+
+.box {
+   margin:10px 0px 30px 0px;
+}
+
+.box hr {
+   height:13px;
+   background-color:#e4e4e4;
+   border:none;
+   margin:0px;
+}
+
+.box h3 {
+   margin:3px 0px;
+   font-weight:normal;
+}
+
+.box a {
+   text-decoration:none;
+   color:#000000;
+}
+
+.box a:hover {
+   color:#084002;
+}
+
+.box p {
+   font-size:13px;
+   text-align:justify;
+}
+
+#sidebar {
+   float:right;
+   width:200px;
+   background:grey;
+   margin: 5px 5px;
+}
+
+#footer {
+   background-color:#e8e8e8;
+   height:100px;
+   overflow:hidden;
+   margin-top: 30px;	
+  
+}
+
+#footer_content {
+   width:960px;
+   margin:10px auto;
+   font-size:12px;
+   
+}
+
