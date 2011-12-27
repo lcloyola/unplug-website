@@ -1,10 +1,8 @@
 <div id="footer">
-	<p class='footer_text'>Copyright 2011 The Law of Nature Foundation - All Rights Reserved<br />
-	Powered by WordPress</p>
-</div>
+			<div id="footer_content">
+				University of the Philippines Linux Users' Group 2011
 			</div>
 		</div>
 	</div>
 </body>
 </html>
-
