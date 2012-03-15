@@ -1,15 +1,14 @@
 <?php get_header(); ?>
 
 <div id="base_content">
-			<?php while ( have_posts() ) : the_post() ?>
+			<?php the_post() ?>
 				<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<hr />
 				<h1><a href="<?php the_permalink(); ?>">[<?php the_title(); ?>]</a></h1>
 			        <h2>[<?php the_time('d/m/Y'); ?>]</h2>
-					<?php the_content( ( 'Continue reading &raquo;' )  ); ?>
+					<?php the_content(); ?>
 					<?php wp_link_pages(); ?>	
 				</div>
-			<?php endwhile; ?>	
 			<div id="navigation">
 				<?php global $wp_query; $total_pages = $wp_query->max_num_pages; if ( $total_pages > 1 ) { ?>
 					<div class="previous_post"><?php next_posts_link(__( '&laquo; Older posts' )) ?></div>

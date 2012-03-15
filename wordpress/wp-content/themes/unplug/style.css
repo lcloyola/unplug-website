@@ -271,4 +271,10 @@ body {
  clear:both;
 }
 
+.previous_post {
+   float:left;
+}
 
+.next_post {
+   float:right;
+}
